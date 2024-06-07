@@ -1,0 +1,2 @@
+# MultiPedidos
+Versão Desktop Standalone
