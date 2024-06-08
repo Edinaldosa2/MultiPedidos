@@ -22,7 +22,6 @@ namespace MultPedidos
         private TextBox txtCustoAdicional7;
         private TextBox txtPrecoAdicional10;
         private TextBox txtCustoAdicional10;
-        private PictureBox imgAdicional10;
         private Label lblAdicional10;
         private TextBox txtAdicional10;
         private TextBox txtPrecoAdicional4;
@@ -33,29 +32,20 @@ namespace MultPedidos
         private TextBox txtCustoAdicional2;
         private TextBox txtPrecoAdicional5;
         private TextBox txtCustoAdicional5;
-        private PictureBox imgAdicional5;
         private Label lblAdicional5;
         private TextBox txtAdicional5;
-        private PictureBox imgAdicional9;
-        private PictureBox imgAdicional8;
-        private PictureBox imgAdicional7;
         private TextBox txtPrecoAdicional6;
         private TextBox txtCustoAdicional6;
-        private PictureBox imgAdicional6;
         private Label lblAdicionais2;
         private Label lblPrecoAdicionais2;
         private Label lblCustoAdicionais2;
         private Label lblImagemAdicionais2;
-        private PictureBox imgAdicional4;
-        private PictureBox imgAdicional3;
-        private PictureBox imgAdicional2;
         private Label lblAdicionais1;
         private Label lblPrecoAdicionais1;
         private TextBox txtPrecoAdicional1;
         private Label lblCustoAdicionais1;
         private TextBox txtCustoAdicional1;
         private Label lblImagemAdicionais1;
-        private PictureBox imgAdicional1;
         private Label lblAdicional8;
         private TextBox txtAdicional8;
         private Label lblAdicional4;
@@ -71,6 +61,26 @@ namespace MultPedidos
         private Button btnSalvarCadastroAdicionais;
         private Label lblAdicional1;
         private TextBox txtAdicional1;
+        private OpenFileDialog openFileCadastroAdicionais1;
+        private OpenFileDialog openFileCadastroAdicionais2;
+        private OpenFileDialog openFileCadastroAdicionais3;
+        private OpenFileDialog openFileCadastroAdicionais4;
+        private OpenFileDialog openFileCadastroAdicionais5;
+        private OpenFileDialog openFileCadastroAdicionais6;
+        private OpenFileDialog openFileCadastroAdicionais7;
+        private OpenFileDialog openFileCadastroAdicionais8;
+        private OpenFileDialog openFileCadastroAdicionais9;
+        private OpenFileDialog openFileCadastroAdicionais10;
+        private Button btnUploadImagemCadastroAdicional1;
+        private Button button1;
+        private Button button2;
+        private Button button3;
+        private Button button4;
+        private Button button5;
+        private Button button6;
+        private Button button7;
+        private Button button8;
+        private Button button9;
         private Label lblTituloCadastroAdicionais;
 
         public CadastroAdicionais()
@@ -90,7 +100,6 @@ namespace MultPedidos
             this.txtCustoAdicional7 = new System.Windows.Forms.TextBox();
             this.txtPrecoAdicional10 = new System.Windows.Forms.TextBox();
             this.txtCustoAdicional10 = new System.Windows.Forms.TextBox();
-            this.imgAdicional10 = new System.Windows.Forms.PictureBox();
             this.lblAdicional10 = new System.Windows.Forms.Label();
             this.txtAdicional10 = new System.Windows.Forms.TextBox();
             this.txtPrecoAdicional4 = new System.Windows.Forms.TextBox();
@@ -101,29 +110,20 @@ namespace MultPedidos
             this.txtCustoAdicional2 = new System.Windows.Forms.TextBox();
             this.txtPrecoAdicional5 = new System.Windows.Forms.TextBox();
             this.txtCustoAdicional5 = new System.Windows.Forms.TextBox();
-            this.imgAdicional5 = new System.Windows.Forms.PictureBox();
             this.lblAdicional5 = new System.Windows.Forms.Label();
             this.txtAdicional5 = new System.Windows.Forms.TextBox();
-            this.imgAdicional9 = new System.Windows.Forms.PictureBox();
-            this.imgAdicional8 = new System.Windows.Forms.PictureBox();
-            this.imgAdicional7 = new System.Windows.Forms.PictureBox();
             this.txtPrecoAdicional6 = new System.Windows.Forms.TextBox();
             this.txtCustoAdicional6 = new System.Windows.Forms.TextBox();
-            this.imgAdicional6 = new System.Windows.Forms.PictureBox();
             this.lblAdicionais2 = new System.Windows.Forms.Label();
             this.lblPrecoAdicionais2 = new System.Windows.Forms.Label();
             this.lblCustoAdicionais2 = new System.Windows.Forms.Label();
             this.lblImagemAdicionais2 = new System.Windows.Forms.Label();
-            this.imgAdicional4 = new System.Windows.Forms.PictureBox();
-            this.imgAdicional3 = new System.Windows.Forms.PictureBox();
-            this.imgAdicional2 = new System.Windows.Forms.PictureBox();
             this.lblAdicionais1 = new System.Windows.Forms.Label();
             this.lblPrecoAdicionais1 = new System.Windows.Forms.Label();
             this.txtPrecoAdicional1 = new System.Windows.Forms.TextBox();
             this.lblCustoAdicionais1 = new System.Windows.Forms.Label();
             this.txtCustoAdicional1 = new System.Windows.Forms.TextBox();
             this.lblImagemAdicionais1 = new System.Windows.Forms.Label();
-            this.imgAdicional1 = new System.Windows.Forms.PictureBox();
             this.lblAdicional8 = new System.Windows.Forms.Label();
             this.txtAdicional8 = new System.Windows.Forms.TextBox();
             this.lblAdicional4 = new System.Windows.Forms.Label();
@@ -140,16 +140,26 @@ namespace MultPedidos
             this.lblAdicional1 = new System.Windows.Forms.Label();
             this.txtAdicional1 = new System.Windows.Forms.TextBox();
             this.lblTituloCadastroAdicionais = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional1)).BeginInit();
+            this.openFileCadastroAdicionais1 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileCadastroAdicionais2 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileCadastroAdicionais3 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileCadastroAdicionais4 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileCadastroAdicionais5 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileCadastroAdicionais6 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileCadastroAdicionais7 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileCadastroAdicionais8 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileCadastroAdicionais9 = new System.Windows.Forms.OpenFileDialog();
+            this.openFileCadastroAdicionais10 = new System.Windows.Forms.OpenFileDialog();
+            this.btnUploadImagemCadastroAdicional1 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblAdicional9
@@ -234,15 +244,6 @@ namespace MultPedidos
             this.txtCustoAdicional10.Size = new System.Drawing.Size(82, 30);
             this.txtCustoAdicional10.TabIndex = 263;
             // 
-            // imgAdicional10
-            // 
-            this.imgAdicional10.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.imgAdicional10.Location = new System.Drawing.Point(838, 448);
-            this.imgAdicional10.Name = "imgAdicional10";
-            this.imgAdicional10.Size = new System.Drawing.Size(114, 77);
-            this.imgAdicional10.TabIndex = 262;
-            this.imgAdicional10.TabStop = false;
-            // 
             // lblAdicional10
             // 
             this.lblAdicional10.AutoSize = true;
@@ -325,15 +326,6 @@ namespace MultPedidos
             this.txtCustoAdicional5.Size = new System.Drawing.Size(82, 30);
             this.txtCustoAdicional5.TabIndex = 252;
             // 
-            // imgAdicional5
-            // 
-            this.imgAdicional5.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.imgAdicional5.Location = new System.Drawing.Point(231, 448);
-            this.imgAdicional5.Name = "imgAdicional5";
-            this.imgAdicional5.Size = new System.Drawing.Size(114, 77);
-            this.imgAdicional5.TabIndex = 251;
-            this.imgAdicional5.TabStop = false;
-            // 
             // lblAdicional5
             // 
             this.lblAdicional5.AutoSize = true;
@@ -352,33 +344,6 @@ namespace MultPedidos
             this.txtAdicional5.Size = new System.Drawing.Size(168, 30);
             this.txtAdicional5.TabIndex = 249;
             // 
-            // imgAdicional9
-            // 
-            this.imgAdicional9.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.imgAdicional9.Location = new System.Drawing.Point(838, 365);
-            this.imgAdicional9.Name = "imgAdicional9";
-            this.imgAdicional9.Size = new System.Drawing.Size(114, 77);
-            this.imgAdicional9.TabIndex = 248;
-            this.imgAdicional9.TabStop = false;
-            // 
-            // imgAdicional8
-            // 
-            this.imgAdicional8.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.imgAdicional8.Location = new System.Drawing.Point(838, 282);
-            this.imgAdicional8.Name = "imgAdicional8";
-            this.imgAdicional8.Size = new System.Drawing.Size(114, 77);
-            this.imgAdicional8.TabIndex = 247;
-            this.imgAdicional8.TabStop = false;
-            // 
-            // imgAdicional7
-            // 
-            this.imgAdicional7.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.imgAdicional7.Location = new System.Drawing.Point(838, 199);
-            this.imgAdicional7.Name = "imgAdicional7";
-            this.imgAdicional7.Size = new System.Drawing.Size(114, 77);
-            this.imgAdicional7.TabIndex = 246;
-            this.imgAdicional7.TabStop = false;
-            // 
             // txtPrecoAdicional6
             // 
             this.txtPrecoAdicional6.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -394,15 +359,6 @@ namespace MultPedidos
             this.txtCustoAdicional6.Name = "txtCustoAdicional6";
             this.txtCustoAdicional6.Size = new System.Drawing.Size(82, 30);
             this.txtCustoAdicional6.TabIndex = 244;
-            // 
-            // imgAdicional6
-            // 
-            this.imgAdicional6.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.imgAdicional6.Location = new System.Drawing.Point(838, 116);
-            this.imgAdicional6.Name = "imgAdicional6";
-            this.imgAdicional6.Size = new System.Drawing.Size(114, 77);
-            this.imgAdicional6.TabIndex = 243;
-            this.imgAdicional6.TabStop = false;
             // 
             // lblAdicionais2
             // 
@@ -443,33 +399,6 @@ namespace MultPedidos
             this.lblImagemAdicionais2.Size = new System.Drawing.Size(77, 24);
             this.lblImagemAdicionais2.TabIndex = 239;
             this.lblImagemAdicionais2.Text = "Imagem";
-            // 
-            // imgAdicional4
-            // 
-            this.imgAdicional4.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.imgAdicional4.Location = new System.Drawing.Point(231, 365);
-            this.imgAdicional4.Name = "imgAdicional4";
-            this.imgAdicional4.Size = new System.Drawing.Size(114, 77);
-            this.imgAdicional4.TabIndex = 238;
-            this.imgAdicional4.TabStop = false;
-            // 
-            // imgAdicional3
-            // 
-            this.imgAdicional3.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.imgAdicional3.Location = new System.Drawing.Point(231, 282);
-            this.imgAdicional3.Name = "imgAdicional3";
-            this.imgAdicional3.Size = new System.Drawing.Size(114, 77);
-            this.imgAdicional3.TabIndex = 237;
-            this.imgAdicional3.TabStop = false;
-            // 
-            // imgAdicional2
-            // 
-            this.imgAdicional2.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.imgAdicional2.Location = new System.Drawing.Point(231, 199);
-            this.imgAdicional2.Name = "imgAdicional2";
-            this.imgAdicional2.Size = new System.Drawing.Size(114, 77);
-            this.imgAdicional2.TabIndex = 236;
-            this.imgAdicional2.TabStop = false;
             // 
             // lblAdicionais1
             // 
@@ -526,15 +455,6 @@ namespace MultPedidos
             this.lblImagemAdicionais1.Size = new System.Drawing.Size(77, 24);
             this.lblImagemAdicionais1.TabIndex = 230;
             this.lblImagemAdicionais1.Text = "Imagem";
-            // 
-            // imgAdicional1
-            // 
-            this.imgAdicional1.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.imgAdicional1.Location = new System.Drawing.Point(231, 116);
-            this.imgAdicional1.Name = "imgAdicional1";
-            this.imgAdicional1.Size = new System.Drawing.Size(114, 77);
-            this.imgAdicional1.TabIndex = 229;
-            this.imgAdicional1.TabStop = false;
             // 
             // lblAdicional8
             // 
@@ -684,9 +604,179 @@ namespace MultPedidos
             this.lblTituloCadastroAdicionais.TabIndex = 213;
             this.lblTituloCadastroAdicionais.Text = "Cadastro de Adicionais";
             // 
+            // openFileCadastroAdicionais1
+            // 
+            this.openFileCadastroAdicionais1.FileName = "openFileCadastroAdicionais1";
+            // 
+            // openFileCadastroAdicionais2
+            // 
+            this.openFileCadastroAdicionais2.FileName = "openFileCadastroAdicionais2";
+            // 
+            // openFileCadastroAdicionais3
+            // 
+            this.openFileCadastroAdicionais3.FileName = "openFileCadastroAdicionais3";
+            // 
+            // openFileCadastroAdicionais4
+            // 
+            this.openFileCadastroAdicionais4.FileName = "openFileCadastroAdicionais4";
+            // 
+            // openFileCadastroAdicionais5
+            // 
+            this.openFileCadastroAdicionais5.FileName = "openFileCadastroAdicionais5";
+            // 
+            // openFileCadastroAdicionais6
+            // 
+            this.openFileCadastroAdicionais6.FileName = "openFileCadastroAdicionais6";
+            // 
+            // openFileCadastroAdicionais7
+            // 
+            this.openFileCadastroAdicionais7.FileName = "openFileCadastroAdicionais7";
+            // 
+            // openFileCadastroAdicionais8
+            // 
+            this.openFileCadastroAdicionais8.FileName = "openFileCadastroAdicionais8";
+            // 
+            // openFileCadastroAdicionais9
+            // 
+            this.openFileCadastroAdicionais9.FileName = "openFileCadastroAdicionais9";
+            // 
+            // openFileCadastroAdicionais10
+            // 
+            this.openFileCadastroAdicionais10.FileName = "openFileCadastroAdicionais10";
+            // 
+            // btnUploadImagemCadastroAdicional1
+            // 
+            this.btnUploadImagemCadastroAdicional1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnUploadImagemCadastroAdicional1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnUploadImagemCadastroAdicional1.Location = new System.Drawing.Point(228, 115);
+            this.btnUploadImagemCadastroAdicional1.Name = "btnUploadImagemCadastroAdicional1";
+            this.btnUploadImagemCadastroAdicional1.Size = new System.Drawing.Size(127, 30);
+            this.btnUploadImagemCadastroAdicional1.TabIndex = 334;
+            this.btnUploadImagemCadastroAdicional1.Text = "Upload";
+            this.btnUploadImagemCadastroAdicional1.UseVisualStyleBackColor = true;
+            this.btnUploadImagemCadastroAdicional1.Click += new System.EventHandler(this.btnUploadImagemCadastroAdicional1_Click);
+            // 
+            // button1
+            // 
+            this.button1.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button1.Location = new System.Drawing.Point(228, 199);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(127, 30);
+            this.button1.TabIndex = 335;
+            this.button1.Text = "Upload";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button2.Location = new System.Drawing.Point(228, 283);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(127, 30);
+            this.button2.TabIndex = 336;
+            this.button2.Text = "Upload";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // button3
+            // 
+            this.button3.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button3.Location = new System.Drawing.Point(228, 366);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(127, 30);
+            this.button3.TabIndex = 337;
+            this.button3.Text = "Upload";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button4
+            // 
+            this.button4.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button4.Location = new System.Drawing.Point(228, 442);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(127, 30);
+            this.button4.TabIndex = 338;
+            this.button4.Text = "Upload";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button5.Location = new System.Drawing.Point(837, 443);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(127, 30);
+            this.button5.TabIndex = 343;
+            this.button5.Text = "Upload";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button6
+            // 
+            this.button6.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button6.Location = new System.Drawing.Point(837, 367);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(127, 30);
+            this.button6.TabIndex = 342;
+            this.button6.Text = "Upload";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
+            // button7
+            // 
+            this.button7.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button7.Location = new System.Drawing.Point(837, 284);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(127, 30);
+            this.button7.TabIndex = 341;
+            this.button7.Text = "Upload";
+            this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
+            // button8
+            // 
+            this.button8.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button8.Location = new System.Drawing.Point(837, 200);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(127, 30);
+            this.button8.TabIndex = 340;
+            this.button8.Text = "Upload";
+            this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
+            // 
+            // button9
+            // 
+            this.button9.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.button9.Location = new System.Drawing.Point(837, 116);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(127, 30);
+            this.button9.TabIndex = 339;
+            this.button9.Text = "Upload";
+            this.button9.UseVisualStyleBackColor = true;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
             // CadastroAdicionais
             // 
             this.ClientSize = new System.Drawing.Size(1188, 617);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnUploadImagemCadastroAdicional1);
             this.Controls.Add(this.lblAdicional9);
             this.Controls.Add(this.txtAdicional9);
             this.Controls.Add(this.txtPrecoAdicional9);
@@ -697,7 +787,6 @@ namespace MultPedidos
             this.Controls.Add(this.txtCustoAdicional7);
             this.Controls.Add(this.txtPrecoAdicional10);
             this.Controls.Add(this.txtCustoAdicional10);
-            this.Controls.Add(this.imgAdicional10);
             this.Controls.Add(this.lblAdicional10);
             this.Controls.Add(this.txtAdicional10);
             this.Controls.Add(this.txtPrecoAdicional4);
@@ -708,29 +797,20 @@ namespace MultPedidos
             this.Controls.Add(this.txtCustoAdicional2);
             this.Controls.Add(this.txtPrecoAdicional5);
             this.Controls.Add(this.txtCustoAdicional5);
-            this.Controls.Add(this.imgAdicional5);
             this.Controls.Add(this.lblAdicional5);
             this.Controls.Add(this.txtAdicional5);
-            this.Controls.Add(this.imgAdicional9);
-            this.Controls.Add(this.imgAdicional8);
-            this.Controls.Add(this.imgAdicional7);
             this.Controls.Add(this.txtPrecoAdicional6);
             this.Controls.Add(this.txtCustoAdicional6);
-            this.Controls.Add(this.imgAdicional6);
             this.Controls.Add(this.lblAdicionais2);
             this.Controls.Add(this.lblPrecoAdicionais2);
             this.Controls.Add(this.lblCustoAdicionais2);
             this.Controls.Add(this.lblImagemAdicionais2);
-            this.Controls.Add(this.imgAdicional4);
-            this.Controls.Add(this.imgAdicional3);
-            this.Controls.Add(this.imgAdicional2);
             this.Controls.Add(this.lblAdicionais1);
             this.Controls.Add(this.lblPrecoAdicionais1);
             this.Controls.Add(this.txtPrecoAdicional1);
             this.Controls.Add(this.lblCustoAdicionais1);
             this.Controls.Add(this.txtCustoAdicional1);
             this.Controls.Add(this.lblImagemAdicionais1);
-            this.Controls.Add(this.imgAdicional1);
             this.Controls.Add(this.lblAdicional8);
             this.Controls.Add(this.txtAdicional8);
             this.Controls.Add(this.lblAdicional4);
@@ -748,19 +828,211 @@ namespace MultPedidos
             this.Controls.Add(this.txtAdicional1);
             this.Controls.Add(this.lblTituloCadastroAdicionais);
             this.Name = "CadastroAdicionais";
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.imgAdicional1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
+
+        private void btnUploadImagemCadastroAdicional1_Click(object sender, EventArgs e)
+        {
+            // Configure the OpenFileDialog properties
+            openFileCadastroAdicionais1.InitialDirectory = "c:\\";
+            openFileCadastroAdicionais1.Filter = "All files (*.*)|*.*|Text files (*.txt)|*.txt";
+            openFileCadastroAdicionais1.FilterIndex = 1;
+            openFileCadastroAdicionais1.RestoreDirectory = true;
+
+            // Show the OpenFileDialog and process the selected file
+            if (openFileCadastroAdicionais1.ShowDialog() == DialogResult.OK)
+            {
+                // Get the path of specified file
+                string filePath = openFileCadastroAdicionais1.FileName;
+
+                // Do something with the file
+                MessageBox.Show("File selected: " + filePath);
+
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            // Configure the OpenFileDialog properties
+            openFileCadastroAdicionais2.InitialDirectory = "c:\\";
+            openFileCadastroAdicionais2.Filter = "All files (*.*)|*.*|Text files (*.txt)|*.txt";
+            openFileCadastroAdicionais2.FilterIndex = 1;
+            openFileCadastroAdicionais2.RestoreDirectory = true;
+
+            // Show the OpenFileDialog and process the selected file
+            if (openFileCadastroAdicionais2.ShowDialog() == DialogResult.OK)
+            {
+                // Get the path of specified file
+                string filePath = openFileCadastroAdicionais2.FileName;
+
+                // Do something with the file
+                MessageBox.Show("File selected: " + filePath);
+
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            // Configure the OpenFileDialog properties
+            openFileCadastroAdicionais3.InitialDirectory = "c:\\";
+            openFileCadastroAdicionais3.Filter = "All files (*.*)|*.*|Text files (*.txt)|*.txt";
+            openFileCadastroAdicionais3.FilterIndex = 1;
+            openFileCadastroAdicionais3.RestoreDirectory = true;
+
+            // Show the OpenFileDialog and process the selected file
+            if (openFileCadastroAdicionais3.ShowDialog() == DialogResult.OK)
+            {
+                // Get the path of specified file
+                string filePath = openFileCadastroAdicionais3.FileName;
+
+                // Do something with the file
+                MessageBox.Show("File selected: " + filePath);
+
+            }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // Configure the OpenFileDialog properties
+            openFileCadastroAdicionais4.InitialDirectory = "c:\\";
+            openFileCadastroAdicionais4.Filter = "All files (*.*)|*.*|Text files (*.txt)|*.txt";
+            openFileCadastroAdicionais4.FilterIndex = 1;
+            openFileCadastroAdicionais4.RestoreDirectory = true;
+
+            // Show the OpenFileDialog and process the selected file
+            if (openFileCadastroAdicionais4.ShowDialog() == DialogResult.OK)
+            {
+                // Get the path of specified file
+                string filePath = openFileCadastroAdicionais4.FileName;
+
+                // Do something with the file
+                MessageBox.Show("File selected: " + filePath);
+
+            }
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            // Configure the OpenFileDialog properties
+            openFileCadastroAdicionais5.InitialDirectory = "c:\\";
+            openFileCadastroAdicionais5.Filter = "All files (*.*)|*.*|Text files (*.txt)|*.txt";
+            openFileCadastroAdicionais5.FilterIndex = 1;
+            openFileCadastroAdicionais5.RestoreDirectory = true;
+
+            // Show the OpenFileDialog and process the selected file
+            if (openFileCadastroAdicionais5.ShowDialog() == DialogResult.OK)
+            {
+                // Get the path of specified file
+                string filePath = openFileCadastroAdicionais5.FileName;
+
+                // Do something with the file
+                MessageBox.Show("File selected: " + filePath);
+
+            }
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            // Configure the OpenFileDialog properties
+            openFileCadastroAdicionais6.InitialDirectory = "c:\\";
+            openFileCadastroAdicionais6.Filter = "All files (*.*)|*.*|Text files (*.txt)|*.txt";
+            openFileCadastroAdicionais6.FilterIndex = 1;
+            openFileCadastroAdicionais6.RestoreDirectory = true;
+
+            // Show the OpenFileDialog and process the selected file
+            if (openFileCadastroAdicionais6.ShowDialog() == DialogResult.OK)
+            {
+                // Get the path of specified file
+                string filePath = openFileCadastroAdicionais6.FileName;
+
+                // Do something with the file
+                MessageBox.Show("File selected: " + filePath);
+
+            }
+        }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            // Configure the OpenFileDialog properties
+            openFileCadastroAdicionais7.InitialDirectory = "c:\\";
+            openFileCadastroAdicionais7.Filter = "All files (*.*)|*.*|Text files (*.txt)|*.txt";
+            openFileCadastroAdicionais7.FilterIndex = 1;
+            openFileCadastroAdicionais7.RestoreDirectory = true;
+
+            // Show the OpenFileDialog and process the selected file
+            if (openFileCadastroAdicionais7.ShowDialog() == DialogResult.OK)
+            {
+                // Get the path of specified file
+                string filePath = openFileCadastroAdicionais7.FileName;
+
+                // Do something with the file
+                MessageBox.Show("File selected: " + filePath);
+
+            }
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            // Configure the OpenFileDialog properties
+            openFileCadastroAdicionais8.InitialDirectory = "c:\\";
+            openFileCadastroAdicionais8.Filter = "All files (*.*)|*.*|Text files (*.txt)|*.txt";
+            openFileCadastroAdicionais8.FilterIndex = 1;
+            openFileCadastroAdicionais8.RestoreDirectory = true;
+
+            // Show the OpenFileDialog and process the selected file
+            if (openFileCadastroAdicionais8.ShowDialog() == DialogResult.OK)
+            {
+                // Get the path of specified file
+                string filePath = openFileCadastroAdicionais8.FileName;
+
+                // Do something with the file
+                MessageBox.Show("File selected: " + filePath);
+
+            }
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            // Configure the OpenFileDialog properties
+            openFileCadastroAdicionais9.InitialDirectory = "c:\\";
+            openFileCadastroAdicionais9.Filter = "All files (*.*)|*.*|Text files (*.txt)|*.txt";
+            openFileCadastroAdicionais9.FilterIndex = 1;
+            openFileCadastroAdicionais9.RestoreDirectory = true;
+
+            // Show the OpenFileDialog and process the selected file
+            if (openFileCadastroAdicionais9.ShowDialog() == DialogResult.OK)
+            {
+                // Get the path of specified file
+                string filePath = openFileCadastroAdicionais9.FileName;
+
+                // Do something with the file
+                MessageBox.Show("File selected: " + filePath);
+
+            }
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            // Configure the OpenFileDialog properties
+            openFileCadastroAdicionais10.InitialDirectory = "c:\\";
+            openFileCadastroAdicionais10.Filter = "All files (*.*)|*.*|Text files (*.txt)|*.txt";
+            openFileCadastroAdicionais10.FilterIndex = 1;
+            openFileCadastroAdicionais10.RestoreDirectory = true;
+
+            // Show the OpenFileDialog and process the selected file
+            if (openFileCadastroAdicionais10.ShowDialog() == DialogResult.OK)
+            {
+                // Get the path of specified file
+                string filePath = openFileCadastroAdicionais10.FileName;
+
+                // Do something with the file
+                MessageBox.Show("File selected: " + filePath);
+
+            }
+        }
+
+        
     }
 }
