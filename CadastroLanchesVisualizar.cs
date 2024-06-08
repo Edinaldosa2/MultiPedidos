@@ -12,35 +12,39 @@ namespace MultPedidos
 {
     public partial class CadastroLanchesVisualizar : Form
     {
-        private Label lblPrecoLancheVisualizar;
-        private Label lblCustoLancheVisualizar;
-        private Label lblFotoLancheVizualizar;
-        private Label lblIngrediente8Vizualizar;
-        private Label lblIngrediente4Vizualizar;
-        private Label lblIngrediente7Vizualizar;
-        private Label lblIngrediente3Vizualizar;
-        private Label lblIngrediente6Vizualizar;
-        private Label lblIngrediente2Vizualizar;
-        private Label lblIngrediente5Vizualizar;
-        private Label lblTipoMolhoVizualizar;
-        private Label lblIngrediente1Vizualizar;
-        private Label lblTituloVisualizarLanches;
-        private Label lblNomeLancheVisualizarPreenchido;
-        private Label lblIngrediente1VizualizarPreenchido;
-        private Label lblIngrediente2VizualizarPreenchido;
-        private Label lblIngrediente3VizualizarPreenchido;
-        private Label lblIngrediente4VizualizarPreenchido;
-        private Label lblTipoMolhoVizualizarPreenchido;
+        private Label lblPrecoCadastroLanchesVisualizar;
+        private Label lblCustoCadastroLanchesVisualizar;
+        private Label lblImagemCadastroLanchesVisualizar;
+        private Label lblIngrediente8CadastroLanchesVizualizar;
+        private Label lblIngrediente4CadastroLanchesVizualizar;
+        private Label lblIngrediente7CadastroLanchesVizualizar;
+        private Label lblIngrediente3CadastroLanchesVizualizar;
+        private Label lblIngrediente6CadastroLanchesVizualizar;
+        private Label lblIngrediente2CadastroLanchesVizualizar;
+        private Label lblIngrediente5CadastroLanchesVisualizar;
+        private Label lblTipoMolhoCadastroLanchesVizualizar;
+        private Label lblIngrediente1CadastroLanchesVizualizar;
+        private Label lblTituloCadastroLanchesVisualizar;
+        private Label lblNomeCadastroLanchesVisualizarPreenchido;
+        private Label lblIngrediente1CadastroLanchesVisualizarPreenchido;
+        private Label lblIngrediente2CadastroLanchesVisualizarPreenchido;
+        private Label lblIngrediente3CadastroLanchesVisualizarPreenchido;
+        private Label lblIngrediente4CadastroLanchesVisualizarPreenchido;
+        private Label lblTipoMolhoCadastroLanchesVisualizarPreenchido;
         private Label lblIngrediente5VizualizarPreenchido;
         private Label lblIngrediente6VizualizarPreenchido;
         private Label lblIngrediente7VizualizarPreenchido;
         private Label lblIngrediente8VizualizarPreenchido;
         private Label lblCustoLancheVisualizarPreenchido;
         private Label lblPrecoLancheVisualizarPreenchido;
-        private Label lblFotoLancheVizualizarPreechido;
         private Button buttonDeletarCadastroLanchesVisualizar;
         private Button buttonEditarCadastroLanchesVisualizar;
-        private Label lblNomeLancheVisualizar;
+        private PictureBox imgCadastroLanchesVisualizarPreenchido;
+        private Label lblOBSCadastroLanchesVizualizar;
+        private Label lblOBSVizualizarPreenchido;
+        private Label lblIDCadastroLanchesVisualizar;
+        private Label lblIDCadastroLanchesVisualizarPreenchido;
+        private Label lblNomeCadastroLanchesVisualizar;
 
         public CadastroLanchesVisualizar()
         {
@@ -49,230 +53,235 @@ namespace MultPedidos
 
         private void InitializeComponent()
         {
-            this.lblPrecoLancheVisualizar = new System.Windows.Forms.Label();
-            this.lblCustoLancheVisualizar = new System.Windows.Forms.Label();
-            this.lblFotoLancheVizualizar = new System.Windows.Forms.Label();
-            this.lblIngrediente8Vizualizar = new System.Windows.Forms.Label();
-            this.lblIngrediente4Vizualizar = new System.Windows.Forms.Label();
-            this.lblIngrediente7Vizualizar = new System.Windows.Forms.Label();
-            this.lblIngrediente3Vizualizar = new System.Windows.Forms.Label();
-            this.lblIngrediente6Vizualizar = new System.Windows.Forms.Label();
-            this.lblIngrediente2Vizualizar = new System.Windows.Forms.Label();
-            this.lblIngrediente5Vizualizar = new System.Windows.Forms.Label();
-            this.lblTipoMolhoVizualizar = new System.Windows.Forms.Label();
-            this.lblIngrediente1Vizualizar = new System.Windows.Forms.Label();
-            this.lblTituloVisualizarLanches = new System.Windows.Forms.Label();
-            this.lblNomeLancheVisualizar = new System.Windows.Forms.Label();
-            this.lblNomeLancheVisualizarPreenchido = new System.Windows.Forms.Label();
-            this.lblIngrediente1VizualizarPreenchido = new System.Windows.Forms.Label();
-            this.lblIngrediente2VizualizarPreenchido = new System.Windows.Forms.Label();
-            this.lblIngrediente3VizualizarPreenchido = new System.Windows.Forms.Label();
-            this.lblIngrediente4VizualizarPreenchido = new System.Windows.Forms.Label();
-            this.lblTipoMolhoVizualizarPreenchido = new System.Windows.Forms.Label();
+            this.lblPrecoCadastroLanchesVisualizar = new System.Windows.Forms.Label();
+            this.lblCustoCadastroLanchesVisualizar = new System.Windows.Forms.Label();
+            this.lblImagemCadastroLanchesVisualizar = new System.Windows.Forms.Label();
+            this.lblIngrediente8CadastroLanchesVizualizar = new System.Windows.Forms.Label();
+            this.lblIngrediente4CadastroLanchesVizualizar = new System.Windows.Forms.Label();
+            this.lblIngrediente7CadastroLanchesVizualizar = new System.Windows.Forms.Label();
+            this.lblIngrediente3CadastroLanchesVizualizar = new System.Windows.Forms.Label();
+            this.lblIngrediente6CadastroLanchesVizualizar = new System.Windows.Forms.Label();
+            this.lblIngrediente2CadastroLanchesVizualizar = new System.Windows.Forms.Label();
+            this.lblIngrediente5CadastroLanchesVisualizar = new System.Windows.Forms.Label();
+            this.lblTipoMolhoCadastroLanchesVizualizar = new System.Windows.Forms.Label();
+            this.lblIngrediente1CadastroLanchesVizualizar = new System.Windows.Forms.Label();
+            this.lblTituloCadastroLanchesVisualizar = new System.Windows.Forms.Label();
+            this.lblNomeCadastroLanchesVisualizar = new System.Windows.Forms.Label();
+            this.lblNomeCadastroLanchesVisualizarPreenchido = new System.Windows.Forms.Label();
+            this.lblIngrediente1CadastroLanchesVisualizarPreenchido = new System.Windows.Forms.Label();
+            this.lblIngrediente2CadastroLanchesVisualizarPreenchido = new System.Windows.Forms.Label();
+            this.lblIngrediente3CadastroLanchesVisualizarPreenchido = new System.Windows.Forms.Label();
+            this.lblIngrediente4CadastroLanchesVisualizarPreenchido = new System.Windows.Forms.Label();
+            this.lblTipoMolhoCadastroLanchesVisualizarPreenchido = new System.Windows.Forms.Label();
             this.lblIngrediente5VizualizarPreenchido = new System.Windows.Forms.Label();
             this.lblIngrediente6VizualizarPreenchido = new System.Windows.Forms.Label();
             this.lblIngrediente7VizualizarPreenchido = new System.Windows.Forms.Label();
             this.lblIngrediente8VizualizarPreenchido = new System.Windows.Forms.Label();
             this.lblCustoLancheVisualizarPreenchido = new System.Windows.Forms.Label();
             this.lblPrecoLancheVisualizarPreenchido = new System.Windows.Forms.Label();
-            this.lblFotoLancheVizualizarPreechido = new System.Windows.Forms.Label();
             this.buttonDeletarCadastroLanchesVisualizar = new System.Windows.Forms.Button();
             this.buttonEditarCadastroLanchesVisualizar = new System.Windows.Forms.Button();
+            this.imgCadastroLanchesVisualizarPreenchido = new System.Windows.Forms.PictureBox();
+            this.lblOBSCadastroLanchesVizualizar = new System.Windows.Forms.Label();
+            this.lblOBSVizualizarPreenchido = new System.Windows.Forms.Label();
+            this.lblIDCadastroLanchesVisualizar = new System.Windows.Forms.Label();
+            this.lblIDCadastroLanchesVisualizarPreenchido = new System.Windows.Forms.Label();
+            ((System.ComponentModel.ISupportInitialize)(this.imgCadastroLanchesVisualizarPreenchido)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblPrecoLancheVisualizar
+            // lblPrecoCadastroLanchesVisualizar
             // 
-            this.lblPrecoLancheVisualizar.AutoSize = true;
-            this.lblPrecoLancheVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecoLancheVisualizar.Location = new System.Drawing.Point(559, 385);
-            this.lblPrecoLancheVisualizar.Name = "lblPrecoLancheVisualizar";
-            this.lblPrecoLancheVisualizar.Size = new System.Drawing.Size(82, 24);
-            this.lblPrecoLancheVisualizar.TabIndex = 112;
-            this.lblPrecoLancheVisualizar.Text = "Preço ($)";
+            this.lblPrecoCadastroLanchesVisualizar.AutoSize = true;
+            this.lblPrecoCadastroLanchesVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblPrecoCadastroLanchesVisualizar.Location = new System.Drawing.Point(560, 382);
+            this.lblPrecoCadastroLanchesVisualizar.Name = "lblPrecoCadastroLanchesVisualizar";
+            this.lblPrecoCadastroLanchesVisualizar.Size = new System.Drawing.Size(82, 24);
+            this.lblPrecoCadastroLanchesVisualizar.TabIndex = 112;
+            this.lblPrecoCadastroLanchesVisualizar.Text = "Preço ($)";
             // 
-            // lblCustoLancheVisualizar
+            // lblCustoCadastroLanchesVisualizar
             // 
-            this.lblCustoLancheVisualizar.AutoSize = true;
-            this.lblCustoLancheVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCustoLancheVisualizar.Location = new System.Drawing.Point(559, 349);
-            this.lblCustoLancheVisualizar.Name = "lblCustoLancheVisualizar";
-            this.lblCustoLancheVisualizar.Size = new System.Drawing.Size(86, 24);
-            this.lblCustoLancheVisualizar.TabIndex = 110;
-            this.lblCustoLancheVisualizar.Text = "Custo ($)";
+            this.lblCustoCadastroLanchesVisualizar.AutoSize = true;
+            this.lblCustoCadastroLanchesVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblCustoCadastroLanchesVisualizar.Location = new System.Drawing.Point(555, 346);
+            this.lblCustoCadastroLanchesVisualizar.Name = "lblCustoCadastroLanchesVisualizar";
+            this.lblCustoCadastroLanchesVisualizar.Size = new System.Drawing.Size(86, 24);
+            this.lblCustoCadastroLanchesVisualizar.TabIndex = 110;
+            this.lblCustoCadastroLanchesVisualizar.Text = "Custo ($)";
             // 
-            // lblFotoLancheVizualizar
+            // lblImagemCadastroLanchesVisualizar
             // 
-            this.lblFotoLancheVizualizar.AutoSize = true;
-            this.lblFotoLancheVizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFotoLancheVizualizar.Location = new System.Drawing.Point(117, 346);
-            this.lblFotoLancheVizualizar.Name = "lblFotoLancheVizualizar";
-            this.lblFotoLancheVizualizar.Size = new System.Drawing.Size(77, 24);
-            this.lblFotoLancheVizualizar.TabIndex = 108;
-            this.lblFotoLancheVizualizar.Text = "Imagem";
+            this.lblImagemCadastroLanchesVisualizar.AutoSize = true;
+            this.lblImagemCadastroLanchesVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblImagemCadastroLanchesVisualizar.Location = new System.Drawing.Point(117, 346);
+            this.lblImagemCadastroLanchesVisualizar.Name = "lblImagemCadastroLanchesVisualizar";
+            this.lblImagemCadastroLanchesVisualizar.Size = new System.Drawing.Size(77, 24);
+            this.lblImagemCadastroLanchesVisualizar.TabIndex = 108;
+            this.lblImagemCadastroLanchesVisualizar.Text = "Imagem";
             // 
-            // lblIngrediente8Vizualizar
+            // lblIngrediente8CadastroLanchesVizualizar
             // 
-            this.lblIngrediente8Vizualizar.AutoSize = true;
-            this.lblIngrediente8Vizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngrediente8Vizualizar.Location = new System.Drawing.Point(517, 263);
-            this.lblIngrediente8Vizualizar.Name = "lblIngrediente8Vizualizar";
-            this.lblIngrediente8Vizualizar.Size = new System.Drawing.Size(124, 24);
-            this.lblIngrediente8Vizualizar.TabIndex = 106;
-            this.lblIngrediente8Vizualizar.Text = "Ingrediente 8";
+            this.lblIngrediente8CadastroLanchesVizualizar.AutoSize = true;
+            this.lblIngrediente8CadastroLanchesVizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngrediente8CadastroLanchesVizualizar.Location = new System.Drawing.Point(517, 263);
+            this.lblIngrediente8CadastroLanchesVizualizar.Name = "lblIngrediente8CadastroLanchesVizualizar";
+            this.lblIngrediente8CadastroLanchesVizualizar.Size = new System.Drawing.Size(124, 24);
+            this.lblIngrediente8CadastroLanchesVizualizar.TabIndex = 106;
+            this.lblIngrediente8CadastroLanchesVizualizar.Text = "Ingrediente 8";
             // 
-            // lblIngrediente4Vizualizar
+            // lblIngrediente4CadastroLanchesVizualizar
             // 
-            this.lblIngrediente4Vizualizar.AutoSize = true;
-            this.lblIngrediente4Vizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngrediente4Vizualizar.Location = new System.Drawing.Point(70, 261);
-            this.lblIngrediente4Vizualizar.Name = "lblIngrediente4Vizualizar";
-            this.lblIngrediente4Vizualizar.Size = new System.Drawing.Size(124, 24);
-            this.lblIngrediente4Vizualizar.TabIndex = 104;
-            this.lblIngrediente4Vizualizar.Text = "Ingrediente 4";
+            this.lblIngrediente4CadastroLanchesVizualizar.AutoSize = true;
+            this.lblIngrediente4CadastroLanchesVizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngrediente4CadastroLanchesVizualizar.Location = new System.Drawing.Point(70, 261);
+            this.lblIngrediente4CadastroLanchesVizualizar.Name = "lblIngrediente4CadastroLanchesVizualizar";
+            this.lblIngrediente4CadastroLanchesVizualizar.Size = new System.Drawing.Size(124, 24);
+            this.lblIngrediente4CadastroLanchesVizualizar.TabIndex = 104;
+            this.lblIngrediente4CadastroLanchesVizualizar.Text = "Ingrediente 4";
             // 
-            // lblIngrediente7Vizualizar
+            // lblIngrediente7CadastroLanchesVizualizar
             // 
-            this.lblIngrediente7Vizualizar.AutoSize = true;
-            this.lblIngrediente7Vizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngrediente7Vizualizar.Location = new System.Drawing.Point(517, 227);
-            this.lblIngrediente7Vizualizar.Name = "lblIngrediente7Vizualizar";
-            this.lblIngrediente7Vizualizar.Size = new System.Drawing.Size(124, 24);
-            this.lblIngrediente7Vizualizar.TabIndex = 102;
-            this.lblIngrediente7Vizualizar.Text = "Ingrediente 7";
+            this.lblIngrediente7CadastroLanchesVizualizar.AutoSize = true;
+            this.lblIngrediente7CadastroLanchesVizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngrediente7CadastroLanchesVizualizar.Location = new System.Drawing.Point(517, 227);
+            this.lblIngrediente7CadastroLanchesVizualizar.Name = "lblIngrediente7CadastroLanchesVizualizar";
+            this.lblIngrediente7CadastroLanchesVizualizar.Size = new System.Drawing.Size(124, 24);
+            this.lblIngrediente7CadastroLanchesVizualizar.TabIndex = 102;
+            this.lblIngrediente7CadastroLanchesVizualizar.Text = "Ingrediente 7";
             // 
-            // lblIngrediente3Vizualizar
+            // lblIngrediente3CadastroLanchesVizualizar
             // 
-            this.lblIngrediente3Vizualizar.AutoSize = true;
-            this.lblIngrediente3Vizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngrediente3Vizualizar.Location = new System.Drawing.Point(70, 225);
-            this.lblIngrediente3Vizualizar.Name = "lblIngrediente3Vizualizar";
-            this.lblIngrediente3Vizualizar.Size = new System.Drawing.Size(124, 24);
-            this.lblIngrediente3Vizualizar.TabIndex = 100;
-            this.lblIngrediente3Vizualizar.Text = "Ingrediente 3";
+            this.lblIngrediente3CadastroLanchesVizualizar.AutoSize = true;
+            this.lblIngrediente3CadastroLanchesVizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngrediente3CadastroLanchesVizualizar.Location = new System.Drawing.Point(70, 225);
+            this.lblIngrediente3CadastroLanchesVizualizar.Name = "lblIngrediente3CadastroLanchesVizualizar";
+            this.lblIngrediente3CadastroLanchesVizualizar.Size = new System.Drawing.Size(124, 24);
+            this.lblIngrediente3CadastroLanchesVizualizar.TabIndex = 100;
+            this.lblIngrediente3CadastroLanchesVizualizar.Text = "Ingrediente 3";
             // 
-            // lblIngrediente6Vizualizar
+            // lblIngrediente6CadastroLanchesVizualizar
             // 
-            this.lblIngrediente6Vizualizar.AutoSize = true;
-            this.lblIngrediente6Vizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngrediente6Vizualizar.Location = new System.Drawing.Point(517, 191);
-            this.lblIngrediente6Vizualizar.Name = "lblIngrediente6Vizualizar";
-            this.lblIngrediente6Vizualizar.Size = new System.Drawing.Size(124, 24);
-            this.lblIngrediente6Vizualizar.TabIndex = 98;
-            this.lblIngrediente6Vizualizar.Text = "Ingrediente 6";
+            this.lblIngrediente6CadastroLanchesVizualizar.AutoSize = true;
+            this.lblIngrediente6CadastroLanchesVizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngrediente6CadastroLanchesVizualizar.Location = new System.Drawing.Point(517, 191);
+            this.lblIngrediente6CadastroLanchesVizualizar.Name = "lblIngrediente6CadastroLanchesVizualizar";
+            this.lblIngrediente6CadastroLanchesVizualizar.Size = new System.Drawing.Size(124, 24);
+            this.lblIngrediente6CadastroLanchesVizualizar.TabIndex = 98;
+            this.lblIngrediente6CadastroLanchesVizualizar.Text = "Ingrediente 6";
             // 
-            // lblIngrediente2Vizualizar
+            // lblIngrediente2CadastroLanchesVizualizar
             // 
-            this.lblIngrediente2Vizualizar.AutoSize = true;
-            this.lblIngrediente2Vizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngrediente2Vizualizar.Location = new System.Drawing.Point(70, 189);
-            this.lblIngrediente2Vizualizar.Name = "lblIngrediente2Vizualizar";
-            this.lblIngrediente2Vizualizar.Size = new System.Drawing.Size(124, 24);
-            this.lblIngrediente2Vizualizar.TabIndex = 96;
-            this.lblIngrediente2Vizualizar.Text = "Ingrediente 2";
+            this.lblIngrediente2CadastroLanchesVizualizar.AutoSize = true;
+            this.lblIngrediente2CadastroLanchesVizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngrediente2CadastroLanchesVizualizar.Location = new System.Drawing.Point(70, 189);
+            this.lblIngrediente2CadastroLanchesVizualizar.Name = "lblIngrediente2CadastroLanchesVizualizar";
+            this.lblIngrediente2CadastroLanchesVizualizar.Size = new System.Drawing.Size(124, 24);
+            this.lblIngrediente2CadastroLanchesVizualizar.TabIndex = 96;
+            this.lblIngrediente2CadastroLanchesVizualizar.Text = "Ingrediente 2";
             // 
-            // lblIngrediente5Vizualizar
+            // lblIngrediente5CadastroLanchesVisualizar
             // 
-            this.lblIngrediente5Vizualizar.AutoSize = true;
-            this.lblIngrediente5Vizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngrediente5Vizualizar.Location = new System.Drawing.Point(517, 155);
-            this.lblIngrediente5Vizualizar.Name = "lblIngrediente5Vizualizar";
-            this.lblIngrediente5Vizualizar.Size = new System.Drawing.Size(124, 24);
-            this.lblIngrediente5Vizualizar.TabIndex = 94;
-            this.lblIngrediente5Vizualizar.Text = "Ingrediente 5";
+            this.lblIngrediente5CadastroLanchesVisualizar.AutoSize = true;
+            this.lblIngrediente5CadastroLanchesVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngrediente5CadastroLanchesVisualizar.Location = new System.Drawing.Point(517, 155);
+            this.lblIngrediente5CadastroLanchesVisualizar.Name = "lblIngrediente5CadastroLanchesVisualizar";
+            this.lblIngrediente5CadastroLanchesVisualizar.Size = new System.Drawing.Size(124, 24);
+            this.lblIngrediente5CadastroLanchesVisualizar.TabIndex = 94;
+            this.lblIngrediente5CadastroLanchesVisualizar.Text = "Ingrediente 5";
             // 
-            // lblTipoMolhoVizualizar
+            // lblTipoMolhoCadastroLanchesVizualizar
             // 
-            this.lblTipoMolhoVizualizar.AutoSize = true;
-            this.lblTipoMolhoVizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipoMolhoVizualizar.Location = new System.Drawing.Point(59, 301);
-            this.lblTipoMolhoVizualizar.Name = "lblTipoMolhoVizualizar";
-            this.lblTipoMolhoVizualizar.Size = new System.Drawing.Size(135, 24);
-            this.lblTipoMolhoVizualizar.TabIndex = 90;
-            this.lblTipoMolhoVizualizar.Text = "Tipo de Molho";
+            this.lblTipoMolhoCadastroLanchesVizualizar.AutoSize = true;
+            this.lblTipoMolhoCadastroLanchesVizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTipoMolhoCadastroLanchesVizualizar.Location = new System.Drawing.Point(59, 301);
+            this.lblTipoMolhoCadastroLanchesVizualizar.Name = "lblTipoMolhoCadastroLanchesVizualizar";
+            this.lblTipoMolhoCadastroLanchesVizualizar.Size = new System.Drawing.Size(135, 24);
+            this.lblTipoMolhoCadastroLanchesVizualizar.TabIndex = 90;
+            this.lblTipoMolhoCadastroLanchesVizualizar.Text = "Tipo de Molho";
             // 
-            // lblIngrediente1Vizualizar
+            // lblIngrediente1CadastroLanchesVizualizar
             // 
-            this.lblIngrediente1Vizualizar.AutoSize = true;
-            this.lblIngrediente1Vizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngrediente1Vizualizar.Location = new System.Drawing.Point(70, 153);
-            this.lblIngrediente1Vizualizar.Name = "lblIngrediente1Vizualizar";
-            this.lblIngrediente1Vizualizar.Size = new System.Drawing.Size(124, 24);
-            this.lblIngrediente1Vizualizar.TabIndex = 89;
-            this.lblIngrediente1Vizualizar.Text = "Ingrediente 1";
+            this.lblIngrediente1CadastroLanchesVizualizar.AutoSize = true;
+            this.lblIngrediente1CadastroLanchesVizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngrediente1CadastroLanchesVizualizar.Location = new System.Drawing.Point(70, 153);
+            this.lblIngrediente1CadastroLanchesVizualizar.Name = "lblIngrediente1CadastroLanchesVizualizar";
+            this.lblIngrediente1CadastroLanchesVizualizar.Size = new System.Drawing.Size(124, 24);
+            this.lblIngrediente1CadastroLanchesVizualizar.TabIndex = 89;
+            this.lblIngrediente1CadastroLanchesVizualizar.Text = "Ingrediente 1";
             // 
-            // lblTituloVisualizarLanches
+            // lblTituloCadastroLanchesVisualizar
             // 
-            this.lblTituloVisualizarLanches.AutoSize = true;
-            this.lblTituloVisualizarLanches.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTituloVisualizarLanches.Location = new System.Drawing.Point(415, 30);
-            this.lblTituloVisualizarLanches.Name = "lblTituloVisualizarLanches";
-            this.lblTituloVisualizarLanches.Size = new System.Drawing.Size(100, 31);
-            this.lblTituloVisualizarLanches.TabIndex = 87;
-            this.lblTituloVisualizarLanches.Text = "Lanches";
+            this.lblTituloCadastroLanchesVisualizar.AutoSize = true;
+            this.lblTituloCadastroLanchesVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTituloCadastroLanchesVisualizar.Location = new System.Drawing.Point(415, 30);
+            this.lblTituloCadastroLanchesVisualizar.Name = "lblTituloCadastroLanchesVisualizar";
+            this.lblTituloCadastroLanchesVisualizar.Size = new System.Drawing.Size(100, 31);
+            this.lblTituloCadastroLanchesVisualizar.TabIndex = 87;
+            this.lblTituloCadastroLanchesVisualizar.Text = "Lanches";
             // 
-            // lblNomeLancheVisualizar
+            // lblNomeCadastroLanchesVisualizar
             // 
-            this.lblNomeLancheVisualizar.AutoSize = true;
-            this.lblNomeLancheVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeLancheVisualizar.Location = new System.Drawing.Point(42, 121);
-            this.lblNomeLancheVisualizar.Name = "lblNomeLancheVisualizar";
-            this.lblNomeLancheVisualizar.Size = new System.Drawing.Size(152, 24);
-            this.lblNomeLancheVisualizar.TabIndex = 86;
-            this.lblNomeLancheVisualizar.Text = "Nome do Lanche";
+            this.lblNomeCadastroLanchesVisualizar.AutoSize = true;
+            this.lblNomeCadastroLanchesVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeCadastroLanchesVisualizar.Location = new System.Drawing.Point(134, 120);
+            this.lblNomeCadastroLanchesVisualizar.Name = "lblNomeCadastroLanchesVisualizar";
+            this.lblNomeCadastroLanchesVisualizar.Size = new System.Drawing.Size(60, 24);
+            this.lblNomeCadastroLanchesVisualizar.TabIndex = 86;
+            this.lblNomeCadastroLanchesVisualizar.Text = "Nome";
             // 
-            // lblNomeLancheVisualizarPreenchido
+            // lblNomeCadastroLanchesVisualizarPreenchido
             // 
-            this.lblNomeLancheVisualizarPreenchido.AutoSize = true;
-            this.lblNomeLancheVisualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblNomeLancheVisualizarPreenchido.Location = new System.Drawing.Point(205, 121);
-            this.lblNomeLancheVisualizarPreenchido.Name = "lblNomeLancheVisualizarPreenchido";
-            this.lblNomeLancheVisualizarPreenchido.Size = new System.Drawing.Size(0, 23);
-            this.lblNomeLancheVisualizarPreenchido.TabIndex = 113;
+            this.lblNomeCadastroLanchesVisualizarPreenchido.AutoSize = true;
+            this.lblNomeCadastroLanchesVisualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNomeCadastroLanchesVisualizarPreenchido.Location = new System.Drawing.Point(205, 121);
+            this.lblNomeCadastroLanchesVisualizarPreenchido.Name = "lblNomeCadastroLanchesVisualizarPreenchido";
+            this.lblNomeCadastroLanchesVisualizarPreenchido.Size = new System.Drawing.Size(0, 23);
+            this.lblNomeCadastroLanchesVisualizarPreenchido.TabIndex = 113;
             // 
-            // lblIngrediente1VizualizarPreenchido
+            // lblIngrediente1CadastroLanchesVisualizarPreenchido
             // 
-            this.lblIngrediente1VizualizarPreenchido.AutoSize = true;
-            this.lblIngrediente1VizualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngrediente1VizualizarPreenchido.Location = new System.Drawing.Point(205, 153);
-            this.lblIngrediente1VizualizarPreenchido.Name = "lblIngrediente1VizualizarPreenchido";
-            this.lblIngrediente1VizualizarPreenchido.Size = new System.Drawing.Size(0, 23);
-            this.lblIngrediente1VizualizarPreenchido.TabIndex = 114;
+            this.lblIngrediente1CadastroLanchesVisualizarPreenchido.AutoSize = true;
+            this.lblIngrediente1CadastroLanchesVisualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngrediente1CadastroLanchesVisualizarPreenchido.Location = new System.Drawing.Point(205, 153);
+            this.lblIngrediente1CadastroLanchesVisualizarPreenchido.Name = "lblIngrediente1CadastroLanchesVisualizarPreenchido";
+            this.lblIngrediente1CadastroLanchesVisualizarPreenchido.Size = new System.Drawing.Size(0, 23);
+            this.lblIngrediente1CadastroLanchesVisualizarPreenchido.TabIndex = 114;
             // 
-            // lblIngrediente2VizualizarPreenchido
+            // lblIngrediente2CadastroLanchesVisualizarPreenchido
             // 
-            this.lblIngrediente2VizualizarPreenchido.AutoSize = true;
-            this.lblIngrediente2VizualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngrediente2VizualizarPreenchido.Location = new System.Drawing.Point(205, 189);
-            this.lblIngrediente2VizualizarPreenchido.Name = "lblIngrediente2VizualizarPreenchido";
-            this.lblIngrediente2VizualizarPreenchido.Size = new System.Drawing.Size(0, 23);
-            this.lblIngrediente2VizualizarPreenchido.TabIndex = 115;
+            this.lblIngrediente2CadastroLanchesVisualizarPreenchido.AutoSize = true;
+            this.lblIngrediente2CadastroLanchesVisualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngrediente2CadastroLanchesVisualizarPreenchido.Location = new System.Drawing.Point(205, 189);
+            this.lblIngrediente2CadastroLanchesVisualizarPreenchido.Name = "lblIngrediente2CadastroLanchesVisualizarPreenchido";
+            this.lblIngrediente2CadastroLanchesVisualizarPreenchido.Size = new System.Drawing.Size(0, 23);
+            this.lblIngrediente2CadastroLanchesVisualizarPreenchido.TabIndex = 115;
             // 
-            // lblIngrediente3VizualizarPreenchido
+            // lblIngrediente3CadastroLanchesVisualizarPreenchido
             // 
-            this.lblIngrediente3VizualizarPreenchido.AutoSize = true;
-            this.lblIngrediente3VizualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngrediente3VizualizarPreenchido.Location = new System.Drawing.Point(205, 228);
-            this.lblIngrediente3VizualizarPreenchido.Name = "lblIngrediente3VizualizarPreenchido";
-            this.lblIngrediente3VizualizarPreenchido.Size = new System.Drawing.Size(0, 23);
-            this.lblIngrediente3VizualizarPreenchido.TabIndex = 116;
+            this.lblIngrediente3CadastroLanchesVisualizarPreenchido.AutoSize = true;
+            this.lblIngrediente3CadastroLanchesVisualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngrediente3CadastroLanchesVisualizarPreenchido.Location = new System.Drawing.Point(205, 228);
+            this.lblIngrediente3CadastroLanchesVisualizarPreenchido.Name = "lblIngrediente3CadastroLanchesVisualizarPreenchido";
+            this.lblIngrediente3CadastroLanchesVisualizarPreenchido.Size = new System.Drawing.Size(0, 23);
+            this.lblIngrediente3CadastroLanchesVisualizarPreenchido.TabIndex = 116;
             // 
-            // lblIngrediente4VizualizarPreenchido
+            // lblIngrediente4CadastroLanchesVisualizarPreenchido
             // 
-            this.lblIngrediente4VizualizarPreenchido.AutoSize = true;
-            this.lblIngrediente4VizualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIngrediente4VizualizarPreenchido.Location = new System.Drawing.Point(205, 262);
-            this.lblIngrediente4VizualizarPreenchido.Name = "lblIngrediente4VizualizarPreenchido";
-            this.lblIngrediente4VizualizarPreenchido.Size = new System.Drawing.Size(0, 23);
-            this.lblIngrediente4VizualizarPreenchido.TabIndex = 117;
+            this.lblIngrediente4CadastroLanchesVisualizarPreenchido.AutoSize = true;
+            this.lblIngrediente4CadastroLanchesVisualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIngrediente4CadastroLanchesVisualizarPreenchido.Location = new System.Drawing.Point(205, 262);
+            this.lblIngrediente4CadastroLanchesVisualizarPreenchido.Name = "lblIngrediente4CadastroLanchesVisualizarPreenchido";
+            this.lblIngrediente4CadastroLanchesVisualizarPreenchido.Size = new System.Drawing.Size(0, 23);
+            this.lblIngrediente4CadastroLanchesVisualizarPreenchido.TabIndex = 117;
             // 
-            // lblTipoMolhoVizualizarPreenchido
+            // lblTipoMolhoCadastroLanchesVisualizarPreenchido
             // 
-            this.lblTipoMolhoVizualizarPreenchido.AutoSize = true;
-            this.lblTipoMolhoVizualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTipoMolhoVizualizarPreenchido.Location = new System.Drawing.Point(205, 301);
-            this.lblTipoMolhoVizualizarPreenchido.Name = "lblTipoMolhoVizualizarPreenchido";
-            this.lblTipoMolhoVizualizarPreenchido.Size = new System.Drawing.Size(0, 23);
-            this.lblTipoMolhoVizualizarPreenchido.TabIndex = 118;
+            this.lblTipoMolhoCadastroLanchesVisualizarPreenchido.AutoSize = true;
+            this.lblTipoMolhoCadastroLanchesVisualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTipoMolhoCadastroLanchesVisualizarPreenchido.Location = new System.Drawing.Point(205, 301);
+            this.lblTipoMolhoCadastroLanchesVisualizarPreenchido.Name = "lblTipoMolhoCadastroLanchesVisualizarPreenchido";
+            this.lblTipoMolhoCadastroLanchesVisualizarPreenchido.Size = new System.Drawing.Size(0, 23);
+            this.lblTipoMolhoCadastroLanchesVisualizarPreenchido.TabIndex = 118;
             // 
             // lblIngrediente5VizualizarPreenchido
             // 
@@ -314,7 +323,7 @@ namespace MultPedidos
             // 
             this.lblCustoLancheVisualizarPreenchido.AutoSize = true;
             this.lblCustoLancheVisualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblCustoLancheVisualizarPreenchido.Location = new System.Drawing.Point(652, 350);
+            this.lblCustoLancheVisualizarPreenchido.Location = new System.Drawing.Point(648, 347);
             this.lblCustoLancheVisualizarPreenchido.Name = "lblCustoLancheVisualizarPreenchido";
             this.lblCustoLancheVisualizarPreenchido.Size = new System.Drawing.Size(0, 23);
             this.lblCustoLancheVisualizarPreenchido.TabIndex = 123;
@@ -323,26 +332,17 @@ namespace MultPedidos
             // 
             this.lblPrecoLancheVisualizarPreenchido.AutoSize = true;
             this.lblPrecoLancheVisualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblPrecoLancheVisualizarPreenchido.Location = new System.Drawing.Point(652, 385);
+            this.lblPrecoLancheVisualizarPreenchido.Location = new System.Drawing.Point(648, 382);
             this.lblPrecoLancheVisualizarPreenchido.Name = "lblPrecoLancheVisualizarPreenchido";
             this.lblPrecoLancheVisualizarPreenchido.Size = new System.Drawing.Size(0, 23);
             this.lblPrecoLancheVisualizarPreenchido.TabIndex = 124;
-            // 
-            // lblFotoLancheVizualizarPreechido
-            // 
-            this.lblFotoLancheVizualizarPreechido.AutoSize = true;
-            this.lblFotoLancheVizualizarPreechido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblFotoLancheVizualizarPreechido.Location = new System.Drawing.Point(205, 350);
-            this.lblFotoLancheVizualizarPreechido.Name = "lblFotoLancheVizualizarPreechido";
-            this.lblFotoLancheVizualizarPreechido.Size = new System.Drawing.Size(0, 23);
-            this.lblFotoLancheVizualizarPreechido.TabIndex = 125;
             // 
             // buttonDeletarCadastroLanchesVisualizar
             // 
             this.buttonDeletarCadastroLanchesVisualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.buttonDeletarCadastroLanchesVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonDeletarCadastroLanchesVisualizar.ForeColor = System.Drawing.Color.Red;
-            this.buttonDeletarCadastroLanchesVisualizar.Location = new System.Drawing.Point(796, 446);
+            this.buttonDeletarCadastroLanchesVisualizar.Location = new System.Drawing.Point(796, 461);
             this.buttonDeletarCadastroLanchesVisualizar.Name = "buttonDeletarCadastroLanchesVisualizar";
             this.buttonDeletarCadastroLanchesVisualizar.Size = new System.Drawing.Size(167, 55);
             this.buttonDeletarCadastroLanchesVisualizar.TabIndex = 127;
@@ -354,46 +354,98 @@ namespace MultPedidos
             this.buttonEditarCadastroLanchesVisualizar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.buttonEditarCadastroLanchesVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEditarCadastroLanchesVisualizar.ForeColor = System.Drawing.Color.Gold;
-            this.buttonEditarCadastroLanchesVisualizar.Location = new System.Drawing.Point(610, 446);
+            this.buttonEditarCadastroLanchesVisualizar.Location = new System.Drawing.Point(610, 461);
             this.buttonEditarCadastroLanchesVisualizar.Name = "buttonEditarCadastroLanchesVisualizar";
             this.buttonEditarCadastroLanchesVisualizar.Size = new System.Drawing.Size(167, 55);
             this.buttonEditarCadastroLanchesVisualizar.TabIndex = 126;
             this.buttonEditarCadastroLanchesVisualizar.Text = "Editar";
             this.buttonEditarCadastroLanchesVisualizar.UseVisualStyleBackColor = false;
             // 
+            // imgCadastroLanchesVisualizarPreenchido
+            // 
+            this.imgCadastroLanchesVisualizarPreenchido.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.imgCadastroLanchesVisualizarPreenchido.Location = new System.Drawing.Point(209, 349);
+            this.imgCadastroLanchesVisualizarPreenchido.Name = "imgCadastroLanchesVisualizarPreenchido";
+            this.imgCadastroLanchesVisualizarPreenchido.Size = new System.Drawing.Size(229, 167);
+            this.imgCadastroLanchesVisualizarPreenchido.TabIndex = 290;
+            this.imgCadastroLanchesVisualizarPreenchido.TabStop = false;
+            // 
+            // lblOBSCadastroLanchesVizualizar
+            // 
+            this.lblOBSCadastroLanchesVizualizar.AutoSize = true;
+            this.lblOBSCadastroLanchesVizualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOBSCadastroLanchesVizualizar.Location = new System.Drawing.Point(593, 301);
+            this.lblOBSCadastroLanchesVizualizar.Name = "lblOBSCadastroLanchesVizualizar";
+            this.lblOBSCadastroLanchesVizualizar.Size = new System.Drawing.Size(48, 24);
+            this.lblOBSCadastroLanchesVizualizar.TabIndex = 291;
+            this.lblOBSCadastroLanchesVizualizar.Text = "OBS";
+            // 
+            // lblOBSVizualizarPreenchido
+            // 
+            this.lblOBSVizualizarPreenchido.AutoSize = true;
+            this.lblOBSVizualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblOBSVizualizarPreenchido.Location = new System.Drawing.Point(652, 302);
+            this.lblOBSVizualizarPreenchido.Name = "lblOBSVizualizarPreenchido";
+            this.lblOBSVizualizarPreenchido.Size = new System.Drawing.Size(0, 23);
+            this.lblOBSVizualizarPreenchido.TabIndex = 292;
+            // 
+            // lblIDCadastroLanchesVisualizar
+            // 
+            this.lblIDCadastroLanchesVisualizar.AutoSize = true;
+            this.lblIDCadastroLanchesVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIDCadastroLanchesVisualizar.Location = new System.Drawing.Point(96, 87);
+            this.lblIDCadastroLanchesVisualizar.Name = "lblIDCadastroLanchesVisualizar";
+            this.lblIDCadastroLanchesVisualizar.Size = new System.Drawing.Size(98, 24);
+            this.lblIDCadastroLanchesVisualizar.TabIndex = 293;
+            this.lblIDCadastroLanchesVisualizar.Text = "ID Lanche";
+            // 
+            // lblIDCadastroLanchesVisualizarPreenchido
+            // 
+            this.lblIDCadastroLanchesVisualizarPreenchido.AutoSize = true;
+            this.lblIDCadastroLanchesVisualizarPreenchido.Font = new System.Drawing.Font("Palatino Linotype", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIDCadastroLanchesVisualizarPreenchido.Location = new System.Drawing.Point(205, 87);
+            this.lblIDCadastroLanchesVisualizarPreenchido.Name = "lblIDCadastroLanchesVisualizarPreenchido";
+            this.lblIDCadastroLanchesVisualizarPreenchido.Size = new System.Drawing.Size(0, 23);
+            this.lblIDCadastroLanchesVisualizarPreenchido.TabIndex = 294;
+            // 
             // CadastroLanchesVisualizar
             // 
             this.ClientSize = new System.Drawing.Size(988, 548);
+            this.Controls.Add(this.lblIDCadastroLanchesVisualizarPreenchido);
+            this.Controls.Add(this.lblIDCadastroLanchesVisualizar);
+            this.Controls.Add(this.lblOBSVizualizarPreenchido);
+            this.Controls.Add(this.lblOBSCadastroLanchesVizualizar);
+            this.Controls.Add(this.imgCadastroLanchesVisualizarPreenchido);
             this.Controls.Add(this.buttonDeletarCadastroLanchesVisualizar);
             this.Controls.Add(this.buttonEditarCadastroLanchesVisualizar);
-            this.Controls.Add(this.lblFotoLancheVizualizarPreechido);
             this.Controls.Add(this.lblPrecoLancheVisualizarPreenchido);
             this.Controls.Add(this.lblCustoLancheVisualizarPreenchido);
             this.Controls.Add(this.lblIngrediente8VizualizarPreenchido);
             this.Controls.Add(this.lblIngrediente7VizualizarPreenchido);
             this.Controls.Add(this.lblIngrediente6VizualizarPreenchido);
             this.Controls.Add(this.lblIngrediente5VizualizarPreenchido);
-            this.Controls.Add(this.lblTipoMolhoVizualizarPreenchido);
-            this.Controls.Add(this.lblIngrediente4VizualizarPreenchido);
-            this.Controls.Add(this.lblIngrediente3VizualizarPreenchido);
-            this.Controls.Add(this.lblIngrediente2VizualizarPreenchido);
-            this.Controls.Add(this.lblIngrediente1VizualizarPreenchido);
-            this.Controls.Add(this.lblNomeLancheVisualizarPreenchido);
-            this.Controls.Add(this.lblPrecoLancheVisualizar);
-            this.Controls.Add(this.lblCustoLancheVisualizar);
-            this.Controls.Add(this.lblFotoLancheVizualizar);
-            this.Controls.Add(this.lblIngrediente8Vizualizar);
-            this.Controls.Add(this.lblIngrediente4Vizualizar);
-            this.Controls.Add(this.lblIngrediente7Vizualizar);
-            this.Controls.Add(this.lblIngrediente3Vizualizar);
-            this.Controls.Add(this.lblIngrediente6Vizualizar);
-            this.Controls.Add(this.lblIngrediente2Vizualizar);
-            this.Controls.Add(this.lblIngrediente5Vizualizar);
-            this.Controls.Add(this.lblTipoMolhoVizualizar);
-            this.Controls.Add(this.lblIngrediente1Vizualizar);
-            this.Controls.Add(this.lblTituloVisualizarLanches);
-            this.Controls.Add(this.lblNomeLancheVisualizar);
+            this.Controls.Add(this.lblTipoMolhoCadastroLanchesVisualizarPreenchido);
+            this.Controls.Add(this.lblIngrediente4CadastroLanchesVisualizarPreenchido);
+            this.Controls.Add(this.lblIngrediente3CadastroLanchesVisualizarPreenchido);
+            this.Controls.Add(this.lblIngrediente2CadastroLanchesVisualizarPreenchido);
+            this.Controls.Add(this.lblIngrediente1CadastroLanchesVisualizarPreenchido);
+            this.Controls.Add(this.lblNomeCadastroLanchesVisualizarPreenchido);
+            this.Controls.Add(this.lblPrecoCadastroLanchesVisualizar);
+            this.Controls.Add(this.lblCustoCadastroLanchesVisualizar);
+            this.Controls.Add(this.lblImagemCadastroLanchesVisualizar);
+            this.Controls.Add(this.lblIngrediente8CadastroLanchesVizualizar);
+            this.Controls.Add(this.lblIngrediente4CadastroLanchesVizualizar);
+            this.Controls.Add(this.lblIngrediente7CadastroLanchesVizualizar);
+            this.Controls.Add(this.lblIngrediente3CadastroLanchesVizualizar);
+            this.Controls.Add(this.lblIngrediente6CadastroLanchesVizualizar);
+            this.Controls.Add(this.lblIngrediente2CadastroLanchesVizualizar);
+            this.Controls.Add(this.lblIngrediente5CadastroLanchesVisualizar);
+            this.Controls.Add(this.lblTipoMolhoCadastroLanchesVizualizar);
+            this.Controls.Add(this.lblIngrediente1CadastroLanchesVizualizar);
+            this.Controls.Add(this.lblTituloCadastroLanchesVisualizar);
+            this.Controls.Add(this.lblNomeCadastroLanchesVisualizar);
             this.Name = "CadastroLanchesVisualizar";
+            ((System.ComponentModel.ISupportInitialize)(this.imgCadastroLanchesVisualizarPreenchido)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -41,9 +41,9 @@
             this.txtTelefonePesquisar = new System.Windows.Forms.TextBox();
             this.txtEmailPesquisar = new System.Windows.Forms.TextBox();
             this.txtDataNascimentoPesquisar = new System.Windows.Forms.TextBox();
-            this.buttonFiltrarPesquisar = new System.Windows.Forms.Button();
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.buttonFiltrarPesquisarCliente = new System.Windows.Forms.Button();
+            this.dataGridViewCadastroClientePesquisar = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCadastroClientePesquisar)).BeginInit();
             this.SuspendLayout();
             // 
             // lblIDClientePesquisar
@@ -159,37 +159,37 @@
             this.txtDataNascimentoPesquisar.Size = new System.Drawing.Size(209, 22);
             this.txtDataNascimentoPesquisar.TabIndex = 12;
             // 
-            // buttonFiltrarPesquisar
+            // buttonFiltrarPesquisarCliente
             // 
-            this.buttonFiltrarPesquisar.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
-            this.buttonFiltrarPesquisar.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonFiltrarPesquisar.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonFiltrarPesquisar.Location = new System.Drawing.Point(828, 201);
-            this.buttonFiltrarPesquisar.Name = "buttonFiltrarPesquisar";
-            this.buttonFiltrarPesquisar.Size = new System.Drawing.Size(163, 61);
-            this.buttonFiltrarPesquisar.TabIndex = 13;
-            this.buttonFiltrarPesquisar.Text = "Filtrar";
-            this.buttonFiltrarPesquisar.UseVisualStyleBackColor = false;
+            this.buttonFiltrarPesquisarCliente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.buttonFiltrarPesquisarCliente.Font = new System.Drawing.Font("Palatino Linotype", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonFiltrarPesquisarCliente.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonFiltrarPesquisarCliente.Location = new System.Drawing.Point(837, 201);
+            this.buttonFiltrarPesquisarCliente.Name = "buttonFiltrarPesquisarCliente";
+            this.buttonFiltrarPesquisarCliente.Size = new System.Drawing.Size(163, 61);
+            this.buttonFiltrarPesquisarCliente.TabIndex = 13;
+            this.buttonFiltrarPesquisarCliente.Text = "Filtrar";
+            this.buttonFiltrarPesquisarCliente.UseVisualStyleBackColor = false;
             // 
-            // dataGridView1
+            // dataGridViewCadastroClientePesquisar
             // 
-            this.dataGridView1.BackgroundColor = System.Drawing.Color.Silver;
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(11, 268);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(989, 211);
-            this.dataGridView1.TabIndex = 14;
+            this.dataGridViewCadastroClientePesquisar.BackgroundColor = System.Drawing.Color.LightGray;
+            this.dataGridViewCadastroClientePesquisar.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridViewCadastroClientePesquisar.Location = new System.Drawing.Point(11, 268);
+            this.dataGridViewCadastroClientePesquisar.Name = "dataGridViewCadastroClientePesquisar";
+            this.dataGridViewCadastroClientePesquisar.RowHeadersWidth = 51;
+            this.dataGridViewCadastroClientePesquisar.RowTemplate.Height = 24;
+            this.dataGridViewCadastroClientePesquisar.Size = new System.Drawing.Size(989, 211);
+            this.dataGridViewCadastroClientePesquisar.TabIndex = 14;
             // 
             // CadastroClientePesquisar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.BackColor = System.Drawing.SystemColors.Control;
             this.ClientSize = new System.Drawing.Size(1003, 491);
-            this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.buttonFiltrarPesquisar);
+            this.Controls.Add(this.dataGridViewCadastroClientePesquisar);
+            this.Controls.Add(this.buttonFiltrarPesquisarCliente);
             this.Controls.Add(this.txtDataNascimentoPesquisar);
             this.Controls.Add(this.txtEmailPesquisar);
             this.Controls.Add(this.txtTelefonePesquisar);
@@ -205,7 +205,7 @@
             this.Controls.Add(this.lblIDClientePesquisar);
             this.Name = "CadastroClientePesquisar";
             this.Text = "CadastroClientePesquisar";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewCadastroClientePesquisar)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -226,7 +226,7 @@
         private System.Windows.Forms.TextBox txtTelefonePesquisar;
         private System.Windows.Forms.TextBox txtEmailPesquisar;
         private System.Windows.Forms.TextBox txtDataNascimentoPesquisar;
-        private System.Windows.Forms.Button buttonFiltrarPesquisar;
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button buttonFiltrarPesquisarCliente;
+        private System.Windows.Forms.DataGridView dataGridViewCadastroClientePesquisar;
     }
 }

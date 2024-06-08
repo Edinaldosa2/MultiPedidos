@@ -21,3 +21,31 @@ D:\Projetos\MultPedidos\MultPedidos\obj\Debug\MultPedidos.CadastroBebidas.resour
 D:\Projetos\MultPedidos\MultPedidos\obj\Debug\MultPedidos.CadastroCombos.resources
 D:\Projetos\MultPedidos\MultPedidos\obj\Debug\MultPedidos.CadastroLanchesVisualizar.resources
 D:\Projetos\MultPedidos\MultPedidos\obj\Debug\MultPedidos.CadastroPorcoesVisualizar.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\bin\Debug\MultPedidos.exe.config
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\bin\Debug\MultPedidos.exe
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\bin\Debug\MultPedidos.pdb
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.csproj.AssemblyReference.cache
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.csproj.SuggestedBindingRedirects.cache
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroAdicionaisVisualizar.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroBebidas.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroAdicionais.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroBebidasVisualizar.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroClienteEditar.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroClientePesquisar.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroClienteVisualizar.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroCliente.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroCombos.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroCombosVisualizar.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroLanches.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroLanchesVisualizar.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroPorcoes.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroPorcoesVisualizar.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroProdutos.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.Tela_Inicial.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.Properties.Resources.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.csproj.GenerateResource.cache
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.csproj.CoreCompileInputs.cache
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.exe
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.pdb
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroAdicionaisPesquisar.resources
+C:\Users\Julia e Edy\Source\Repos\Edinaldosa2\MultiPedidos\obj\Debug\MultPedidos.CadastroIngredientes.resources

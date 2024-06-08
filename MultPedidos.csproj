@@ -64,22 +64,22 @@
     <Compile Include="CadastroClienteVisualizar.Designer.cs">
       <DependentUpon>CadastroClienteVisualizar.cs</DependentUpon>
     </Compile>
-    <Compile Include="CadastroProdutos.cs">
+    <Compile Include="Cadastros\CadastroProdutos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroLanches.cs">
+    <Compile Include="Cadastros\CadastroLanches.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroAdicionais.cs">
+    <Compile Include="Cadastros\CadastroAdicionais.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroPorcoes.cs">
+    <Compile Include="Cadastros\CadastroPorcoes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroBebidas.cs">
+    <Compile Include="Cadastros\CadastroBebidas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroCombos.cs">
+    <Compile Include="Cadastros\CadastroCombos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="CadastroLanchesVisualizar.cs">
@@ -88,25 +88,50 @@
     <Compile Include="CadastroPorcoesVisualizar.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="CadastroAdicionaisVisualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroBebidasVisualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroCombosVisualizar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CadastroAdicionaisPesquisar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cadastros\CadastroIngredientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Inicial.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroCliente.cs">
+    <Compile Include="Cadastros\CadastroCliente.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroCliente.Designer.cs">
+    <Compile Include="Cadastros\CadastroCliente.Designer.cs">
       <DependentUpon>CadastroCliente.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Inicial.Designer.cs">
       <DependentUpon>Inicial.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CadastroBebidas.resx">
+    <EmbeddedResource Include="CadastroAdicionaisPesquisar.resx">
+      <DependentUpon>CadastroAdicionaisPesquisar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroAdicionaisVisualizar.resx">
+      <DependentUpon>CadastroAdicionaisVisualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\CadastroBebidas.resx">
       <DependentUpon>CadastroBebidas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastroAdicionais.resx">
+    <EmbeddedResource Include="Cadastros\CadastroAdicionais.resx">
       <DependentUpon>CadastroAdicionais.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CadastroBebidasVisualizar.resx">
+      <DependentUpon>CadastroBebidasVisualizar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CadastroClienteEditar.resx">
       <DependentUpon>CadastroClienteEditar.cs</DependentUpon>
@@ -117,25 +142,31 @@
     <EmbeddedResource Include="CadastroClienteVisualizar.resx">
       <DependentUpon>CadastroClienteVisualizar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastroCliente.resx">
+    <EmbeddedResource Include="Cadastros\CadastroCliente.resx">
       <DependentUpon>CadastroCliente.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastroCombos.resx">
+    <EmbeddedResource Include="Cadastros\CadastroCombos.resx">
       <DependentUpon>CadastroCombos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastroLanches.resx">
+    <EmbeddedResource Include="CadastroCombosVisualizar.resx">
+      <DependentUpon>CadastroCombosVisualizar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\CadastroIngredientes.resx">
+      <DependentUpon>CadastroIngredientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cadastros\CadastroLanches.resx">
       <DependentUpon>CadastroLanches.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CadastroLanchesVisualizar.resx">
       <DependentUpon>CadastroLanchesVisualizar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastroPorcoes.resx">
+    <EmbeddedResource Include="Cadastros\CadastroPorcoes.resx">
       <DependentUpon>CadastroPorcoes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="CadastroPorcoesVisualizar.resx">
       <DependentUpon>CadastroPorcoesVisualizar.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="CadastroProdutos.resx">
+    <EmbeddedResource Include="Cadastros\CadastroProdutos.resx">
       <DependentUpon>CadastroProdutos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Inicial.resx">

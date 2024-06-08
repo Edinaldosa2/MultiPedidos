@@ -43,7 +43,7 @@
             this.lblBairroVisualizar = new System.Windows.Forms.Label();
             this.lblUFVisualizar = new System.Windows.Forms.Label();
             this.lblCEPVisualizar = new System.Windows.Forms.Label();
-            this.lblIdClienteVisualizar = new System.Windows.Forms.Label();
+            this.lblIdCadastroClienteVisualizar = new System.Windows.Forms.Label();
             this.lblIdClienteVisualizarPreenchido = new System.Windows.Forms.Label();
             this.lblNomeVisualizarPreenchido = new System.Windows.Forms.Label();
             this.lblTelefoneVisualizarPreenchido = new System.Windows.Forms.Label();
@@ -213,15 +213,15 @@
             this.lblCEPVisualizar.TabIndex = 29;
             this.lblCEPVisualizar.Text = "CEP";
             // 
-            // lblIdClienteVisualizar
+            // lblIdCadastroClienteVisualizar
             // 
-            this.lblIdClienteVisualizar.AutoSize = true;
-            this.lblIdClienteVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblIdClienteVisualizar.Location = new System.Drawing.Point(103, 73);
-            this.lblIdClienteVisualizar.Name = "lblIdClienteVisualizar";
-            this.lblIdClienteVisualizar.Size = new System.Drawing.Size(99, 24);
-            this.lblIdClienteVisualizar.TabIndex = 32;
-            this.lblIdClienteVisualizar.Text = "ID Cliente";
+            this.lblIdCadastroClienteVisualizar.AutoSize = true;
+            this.lblIdCadastroClienteVisualizar.Font = new System.Drawing.Font("Palatino Linotype", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblIdCadastroClienteVisualizar.Location = new System.Drawing.Point(103, 73);
+            this.lblIdCadastroClienteVisualizar.Name = "lblIdCadastroClienteVisualizar";
+            this.lblIdCadastroClienteVisualizar.Size = new System.Drawing.Size(99, 24);
+            this.lblIdCadastroClienteVisualizar.TabIndex = 32;
+            this.lblIdCadastroClienteVisualizar.Text = "ID Cliente";
             // 
             // lblIdClienteVisualizarPreenchido
             // 
@@ -434,7 +434,7 @@
             this.Controls.Add(this.lblTelefoneVisualizarPreenchido);
             this.Controls.Add(this.lblNomeVisualizarPreenchido);
             this.Controls.Add(this.lblIdClienteVisualizarPreenchido);
-            this.Controls.Add(this.lblIdClienteVisualizar);
+            this.Controls.Add(this.lblIdCadastroClienteVisualizar);
             this.Controls.Add(this.buttonEditarCadastroClienteVisualizar);
             this.Controls.Add(this.lblCEPVisualizar);
             this.Controls.Add(this.lblUFVisualizar);
@@ -475,7 +475,7 @@
         private System.Windows.Forms.Label lblBairroVisualizar;
         private System.Windows.Forms.Label lblUFVisualizar;
         private System.Windows.Forms.Label lblCEPVisualizar;
-        private System.Windows.Forms.Label lblIdClienteVisualizar;
+        private System.Windows.Forms.Label lblIdCadastroClienteVisualizar;
         private System.Windows.Forms.Label lblIdClienteVisualizarPreenchido;
         private System.Windows.Forms.Label lblNomeVisualizarPreenchido;
         private System.Windows.Forms.Label lblTelefoneVisualizarPreenchido;
